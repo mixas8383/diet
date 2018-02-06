@@ -1,0 +1,744 @@
+/**
+ * @package Helix Framework
+ * @author JoomShaper http://www.joomshaper.com
+ * @copyright Copyright (c) 2010 - 2015 JoomShaper
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 or later
+ */
+
+ @import 'variables';
+ @import 'mixins';
+
+
+// Anchor
+a{
+	color: @major_color;
+	&:hover {
+		color: darken(@major_color, 10%);
+	}
+}
+//buttons
+.btn-primary,
+.sppb-btn-primary,{
+	background-color: @major_color;
+	border-color: darken(@major_color, 15%);
+	color: #fff;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: #fff;
+		background-color: darken(@major_color, 10%);
+		border-color: darken(@major_color, 20%);
+	}
+}
+.btn-info,
+.sppb-btn-info {
+	&:hover,
+	&:focus,
+	&:active {
+	}
+}
+
+
+
+// Off Canvas
+#offcanvas-toggler {
+	>i {
+		color: @text_color;
+		&:hover {
+			color: @major_color;
+		}
+	}
+}
+
+// Topbar Social
+ul.social-icons {
+
+	>li {
+
+		a {
+
+			&:hover {
+				color: @major_color;
+			}
+		}
+	}
+}
+
+// Page Title
+.sp-page-title {
+	
+}
+
+// Body Innerwrapper
+
+.layout-boxed .body-innerwrapper {
+	background: @bg_color;
+}
+
+// Module
+.sp-module {
+	ul {
+		>li {
+			>a {
+				color: @text_color;
+				&:hover {
+					color: @major_color;
+				}
+			}
+		}
+	}
+
+	.latestnews {
+		>div {
+			>a {
+				color: @text_color;
+				&:hover {
+					color: @major_color;
+				}
+			}
+		}
+	}
+
+	.tagscloud {
+		.tag-name {
+			&:hover {
+				background: @major_color;
+			}	
+		}
+	}
+}
+
+// sp Simple Portfolio
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+	// background: @major_color;
+	color: #4e283f;
+	&:before{
+		width: 25%;
+	}
+}
+
+// Search
+.search {
+	.btn-toolbar {
+		button {
+			background: @major_color;
+		}
+	}
+}
+
+
+// Blog
+.post-format {
+	background: @major_color;
+}
+
+.voting-symbol{
+	span.star.active:before{
+		color: @major_color;
+	}
+}
+
+.sp-rating {
+	span.star:hover:before,
+	span.star:hover ~ span.star:before {
+		color: darken(@major_color, 10%);
+	}
+}
+
+.entry-link,
+.entry-quote {
+	background: @major_color;
+}
+
+blockquote {
+	border-color: @major_color;
+}
+
+.carousel-left,
+.carousel-right {
+
+	&:hover {
+		background: @major_color;
+	}
+}
+
+// Footer
+#sp-footer {
+}
+
+// Comingsoon
+.sp-comingsoon body {
+	background-color: @major_color;
+}
+
+// Pagination 
+.pagination>li>a,
+.pagination>li>span {
+	color: @text_color;
+	&:hover,
+	&:focus {
+		color: @major_color;
+		background-color: transparent;
+		
+	}
+}
+
+.pagination>.active>a,
+.pagination>.active>span {
+	border-color: @major_color;
+	background-color: @major_color;
+	&:hover,
+	&:focus {
+		border-color: @major_color;
+		background-color: @major_color;
+	}
+}
+
+.pagination>.active>a:after{
+	border-left: 30px solid @major_color;
+}
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////    Shaper Revibe    //////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// *********** ***** *********** TEXT COLOR *********** ***** *********** //
+
+
+
+
+// *********** ***** *********** MAJOR COLOR *********** ***** *********** //
+
+/* ************** 	  START GLOBAL SYLE  	*********** */
+/* **************************************************** */
+
+//heading-style
+.heading-style{
+	.sppb-title-heading{
+		span{
+			color: @major_color;
+		}
+	}
+}
+// progress bar
+.sppb-progress-bar{
+	background-color: @major_color;
+}
+/* ************** 	  END:: GLOBAL SYLE  	*************** */
+/* **************************************************** *****/
+
+
+/* ***********     START Thumb Gallery      *********** */
+/* **************************************************** */
+.sppb-addon-thumb-gallery{
+	.flex-direction-nav{
+		.flex-prev {
+			background: @major_color;
+		}
+		.flex-next {
+			background: @major_color;
+		}   
+	}
+	#carousel{
+		li.flex-active-slide{
+			&:after{
+				background-color: fade(@major_color, 40%);
+			}
+			img{
+				border-color: lighten(@major_color, 10%) !important;
+			}
+		}
+	}
+}
+
+/* ***********     END:: Thumb Gallery      *********** */
+/* **************************************************** */
+
+
+/* ************** 	  START  REVIBE-TWITTER  	*********** */
+/* ******************************************************** */
+.sppb-addon-tweet{
+	.sppb-tweet-slider .sppb-carousel-control{
+		&:hover{
+			color: @major_color;
+		}
+	}
+}
+/* ************** 	  END:: REVIBE-TWITTER  	********** */
+/* ******************************************************* */
+
+
+/* ************** 	  START REVIBE-TESTIMONIAL  	***** */
+/* ****************************************************** */
+.sppb-revibe-testimonial{
+	background-color: @major_color;
+}
+//testimonial-full-width
+.testimonial-full-width{
+	.sppb-carousel-control{
+		&:hover{
+			color: @major_color;
+		}
+	}
+}
+/* ************** 	  END:: REVIBE-TESTIMONIAL  	***** */
+/* ****************************************************** */
+
+/* ************** 	  START  ADDON ACCORDION  	*********** */
+/* ******************************************************** */
+.sppb-panel{
+	&.sppb-panel-default > .sppb-panel-heading{
+		background-color: @major_color;
+	}
+}
+/* ************** 	  END:: ADDON ACCORDION  	********** */
+/* ******************************************************* */
+
+
+/* ************** 	  START SP-BOTTOM-FOOTER   	********** */
+/* ******************************************************* */
+#sp-footer{
+	.sp-copyright{
+		a{
+			color: @major_color;
+		}
+	}
+}
+#sp-bottom3{
+	.telephone{
+		&:first-letter{
+			color: @major_color;
+		}
+	}
+}
+
+/* ************** 	  END:: SP-BOTTOM-FOOTER   	********** */
+/* ******************************************************* */
+
+
+/* ************** 	  START CONTACT PAGE   	************** */
+/* ******************************************************* */
+.contact-address{
+	.sppb-icon{
+		color: @major_color;
+	}
+}
+/* ************** 	  END:: CONTACT PAGE  	************ */
+/* *******************************************************/
+
+
+/* **************            LEADING ITEM             ***** */
+/* ******************************************************** */
+
+.view-category{
+	.blog{
+
+		.item .entry-info-wrap{ 
+			dl.article-info{
+				> dd{
+					&:after{
+						background-color: @major_color;
+					}
+				}              
+			}
+		}
+
+		.items-leading{
+			.item{
+				.entry-image{
+					border-top: solid 5px @major_color;
+				}
+				.entry-info-wrap{
+					.entry-header{
+						h2{
+							a{
+								&:hover{
+									color: @major_color;
+								}
+							}
+						}
+					}
+					p.readmore{
+						a.btn-default{
+							background-color: @major_color;
+							border-bottom: 3px solid darken(@major_color, 15%);
+							&:hover{
+								background-color: darken(@major_color, 15%);
+								border-bottom: 3px solid darken(@major_color, 20%);
+							}
+						}
+					}
+				}         
+			}
+		}
+        //Bottom-Items
+        .items-row{
+        	.item{
+        		&:before{
+        			background: @major_color;
+        		}
+        		&.show-intro .entry-header{
+        			&:hover{
+        				h2 > a{
+        					color: @major_color;
+        				}
+        			}
+        		}
+        		.entry-info-wrap{
+        			p.readmore{
+        				a.btn-default{
+        					background-color: @major_color;
+        					border-bottom: 3px solid darken(@major_color, 15%);
+        					&:hover{
+        						background-color: darken(@major_color, 15%);
+        						border-bottom: 3px solid darken(@major_color, 20%);
+        					}
+        				}
+        			}	                               	
+        		}
+        	}
+        }
+    }
+}
+
+
+/* **************          END::LEADING ITEM          *********** */
+/* ************************************************************** */
+
+
+
+/* **************         SERVICE START HERE          *************** */
+/* ****************************************************************** */
+.revibe-core-service{
+	.sppb-addon-feature{
+		.sppb-addon-content{
+			.sppb-addon-content-img{
+				.overlay{
+					.sp-vertical-middle{
+						&:before{
+							border-top: 0 solid fade(@major_color, 80%);
+						}
+					}               
+				}
+			}
+			&:hover{
+				.sppb-addon-content-img{
+					.overlay{
+						.sp-vertical-middle{
+							&:before{
+								border-top: 800px solid fade(@major_color, 80%);
+							}
+						}
+					}
+				}
+				.sppb-addon-content-inner{
+					.sppb-feature-box-title{
+						color: @major_color;
+					}
+				}
+			}
+		}
+	}
+}
+/* **************           END::SERVICE HERE         *************** */
+/* ****************************************************************** */
+
+
+
+/* **************        LATEST-ARTICLE START        *************** */
+/* ****************************************************************** */
+.revibe-article{
+	.sppb-addon-article{		
+		.sppb-article-info{
+			.sppb-article-meta{
+				>span{
+					&:after{
+						background-color: @major_color;
+					}
+				}
+			}
+			&:before{
+				background-color: @major_color;
+			}
+		}
+	}
+}
+/* **************         END::LATEST-ARTICLE        *************** */
+/* ****************************************************************** */
+
+
+
+/* **************          CORE SERVICE START        *************** */
+/* ****************************************************************** */
+.service-page-services{
+	.sppb-addon-feature{
+		.sppb-addon-content{
+			&:hover{
+				.sppb-addon-content-img{
+					.sppb-icon{
+						i{
+							color: @major_color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/* **************          END::CORE SERVICE          *************** */
+/* ****************************************************************** */
+
+
+
+/* **************              TAB START             *************** */
+/* ****************************************************************** */
+.revibe-tab{
+	h2.sppb-addon-title{
+		span{
+			color: @major_color;
+		}
+	}
+}
+ul.sppb-nav-tabs{
+	li.active{
+		a{
+			color: @major_color;
+			&:hover,
+			&:focus{
+				color: @major_color;
+			}
+		}
+	}
+	li{
+		a{
+			&:hover{
+				color: @major_color;
+			}
+		}
+	}
+}
+/* **************               END:: TAB             *************** */
+/* ****************************************************************** */
+
+
+
+/* **************         PRICING TABLE START         *************** */
+/* ****************************************************************** */
+.sppb-addon-pricing-table{
+    //Featured
+    .sppb-pricing-featured{
+    	.sppb-pricing-header{
+    		.sppb-pricing-price{
+    			color: @major_color;
+    		}
+    	}
+    	.sppb-pricing-footer{
+    		a.sppb-btn{
+    			color: @major_color;
+    		}
+    	}
+    }
+}
+/* **************         END::PRICING TABLE          *************** */
+/* ****************************************************************** */
+
+
+
+/* **************        CALL TO ACTION START         *************** */
+/* ****************************************************************** */
+.rebive-cta{
+	.sppb-addon-cta{
+		h2.sppb-cta-title{
+			color: @major_color;
+		}
+		a.sppb-btn{
+			&:hover{
+				background: @major_color;
+				border-color: @major_color;
+				color: #fff;
+			}
+		}
+	}
+}
+/* **************         END::CALL TO ACTION         *************** */
+/* ****************************************************************** */
+
+
+
+/* **************          START BLOG DETAILS         *************** */
+/* ****************************************************************** */
+.item,
+.item-page{
+	.entry-header{
+		.tags{
+			.label{
+				color: @major_color;
+			}
+		}
+	}
+}
+/* **************          END:: BLOG DETAILS         *************** */
+/* ****************************************************************** */
+
+
+
+/* **************           STAR POST FORMAT          *************** */
+/* ****************************************************************** */
+.pf-audio{
+	&:hover{
+		.entry-header{
+			.published-date, dl.article-info dd{
+				color: @major_color !important;
+			}
+			h2{
+				a{
+					color: @major_color !important;
+				}
+			}			
+		}		
+	}
+}
+/* **************           END:: POST FORMAT          *************** */
+/* ****************************************************************** */
+
+
+
+
+/* **************             START BUTTON            *************** */
+/* ****************************************************************** */
+
+.btn-link,
+.sppb-btn-link{
+	&:hover,
+	&:focus,
+	&:active {
+		color: @major_color;
+	}
+}
+/* **************             END:: BUTTON            *************** */
+/* ****************************************************************** */
+
+
+
+/*=========================================
+*======= 	Start  Top Bar	   ============
+*=======================================*/
+#sp-top-bar {
+	#sp-top1{
+		ul.social-icons{
+			li{
+				a{
+					&:hover{
+						color: @major_color;
+					}
+				}
+			}
+		}
+	}
+}
+.sp-contact-info {
+	li {	
+		i{
+			color: @major_color;
+		}
+	}
+}
+/* End  Top Bar
+*=======================================*/
+
+
+
+/*=========================================
+*======= 	Start  Page Title   ============
+*=======================================*/
+.sp-page-title {
+	span.last{
+		color: @major_color;
+	}
+	.breadcrumb {
+		>.active {
+			color: @major_color;
+		}
+	}
+}
+/* Start  Page Title
+*=======================================*/
+
+
+
+/*=========================================
+*======= 	Start  Comingsoon	   ========
+*=========================================*/
+.sp-comingsoon {
+	body {
+		&:before{
+			background-color: @major_color;
+		}
+	}
+	.acymailing_module{
+		.acysubbuttons{
+			input[type="submit"]{
+				&:hover{
+					background-color: @major_color;
+				}
+			}
+		}
+	}
+}
+/* End  Comingsoon	
+*=======================================*/
+
+
+
+// sp portfolio
+.sp-simpleportfolio{
+	.sp-simpleportfolio-filter{
+		> ul > li{
+			>a{
+				&:before {
+					background: @major_color;
+				}
+			}
+		}
+	}
+	.sp-simpleportfolio-item{
+		.sp-simpleportfolio-overlay{
+			background: fade(@major_color, 90%) !important;
+		}
+	}
+}
+
+
+/* End  Mixed CSS
+*======================================= */
+
+.pager li>a{
+	&:hover{
+		background-color: @major_color;
+		border-color: @major_color;
+	}
+}
+
+
+
+/*=========================================
+ *======= 	 Megamenu	   ============
+ *=======================================*/
+ .sp-megamenu-parent {
+ 	>li {
+ 		>a {
+ 			&:before {
+ 				background: @major_color;
+ 			}
+ 		}
+ 	} 
+ }	
+
+
