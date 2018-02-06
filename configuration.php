@@ -12,10 +12,10 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	public $host = 'localhost';
+	public $host = 'github.intellect.ge';
 	public $user = 'root';
-	public $password = '';
-	public $db = 'jatc';
+	public $password = '!234Qwer';
+	public $db = 'cbiback';
 	public $dbprefix = 'x20ig_';
 	public $live_site = '';
 	public $secret = 'VhdzfIHwj1pBEFjT';
