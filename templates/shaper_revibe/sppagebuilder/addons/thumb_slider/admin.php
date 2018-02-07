@@ -92,6 +92,18 @@ SpAddonsConfig::addonConfig(
                                 'desc' => JText::_('COM_SPPAGEBUILDER_ADDON_SF_ITEM_SUB_TITLE_DESC'),
                                 'std' => 'Carousel Item Sub Title',
                             ),
+                            'button_url' => array(
+                                'type' => 'text',
+                                'title' => JText::_('COM_SPPAGEBUILDER_GLOBAL_BUTTON_URL'),
+                                'desc' => JText::_('COM_SPPAGEBUILDER_GLOBAL_BUTTON_URL_DESC'),
+                                'placeholder' => 'http://'
+                            ),
+//                            'button_text' => array(
+//                                'type' => 'text',
+//                                'title' => JText::_('COM_SPPAGEBUILDER_GLOBAL_BUTTON_TEXT'),
+//                                'desc' => JText::_('COM_SPPAGEBUILDER_GLOBAL_BUTTON_TEXT_DESC'),
+//                                'std' => 'Send Message'                                
+//                            ), 
                             'image' => array(
                                 'type' => 'media',
                                 'title' => JText::_('COM_SPPAGEBUILDER_ADDON_SF_ITEM_BACKGROUND_IMAGE'),

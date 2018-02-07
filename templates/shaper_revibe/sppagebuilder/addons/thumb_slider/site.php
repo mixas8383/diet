@@ -86,7 +86,17 @@ class SppagebuilderAddonThumb_slider extends SppagebuilderAddons {
             $output .= '<div class="thumb-slider-bg" ' . $bg_image . '>';
             //$output .= '<img src="' . $slideItem->image . '" alt="' . $slideItem->title . '"/>';
             $output .= '<div class="slider-title-wrap">';
-            $output .= '<h1 class="slider-title ' . $title_animation . '" ' . $title_data_attr . '>' . $slideItem->title . '</h1>';
+            
+            if($slideItem->button_url)
+            {
+                $output .= '<a class="' . $title_animation . '"  href="' . $slideItem->button_url . '"><h1 class="slider-title " ' . $title_data_attr . '>' . $slideItem->title . '</h1></a>';
+            }else{
+                $output .= '<h1 class="slider-title ' . $title_animation . '" ' . $title_data_attr . '>' . $slideItem->title . '</h1>';
+            }
+            
+            
+            
+            
             $output .= '<p class="slider-sub-title ' . $subtitle_animation . '" ' . $subtitle_data_attr . '>' . $slideItem->sub_title . '</p>';
 //            if ($slideItem->button_url) {
 //                $output .= '<a class="btn btn-primary btn-sm ' . $button_animation . '" href="' . $slideItem->button_url . '" ' . $button_data_attr . '>' . $slideItem->button_text . '</a>';

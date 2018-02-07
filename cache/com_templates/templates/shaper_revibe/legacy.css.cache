@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:78:"C:\xamppnew\htdocs\jatc.mix\templates/shaper_revibe/less/legacy/bootstrap.less";s:8:"compiled";s:27509:".clearfix {
+a:4:{s:4:"root";s:75:"C:\xampp\htdocs\diet.mix\templates/shaper_revibe/less/legacy/bootstrap.less";s:8:"compiled";s:27509:".clearfix {
   *zoom: 1;
 }
 .clearfix:before,
@@ -1113,4 +1113,4 @@ legend + .control-group {
     right: 10px;
   }
 }
-";s:5:"files";a:8:{s:78:"C:\xamppnew\htdocs\jatc.mix\templates\shaper_revibe\less\legacy\bootstrap.less";i:1507217466;s:78:"C:\xamppnew\htdocs\jatc.mix\templates\shaper_revibe\less\legacy\variables.less";i:1507217466;s:75:"C:\xamppnew\htdocs\jatc.mix\templates\shaper_revibe\less\legacy\mixins.less";i:1507217466;s:73:"C:\xamppnew\htdocs\jatc.mix\templates\shaper_revibe\less\legacy\grid.less";i:1507217466;s:74:"C:\xamppnew\htdocs\jatc.mix\templates\shaper_revibe\less\legacy\forms.less";i:1507217466;s:74:"C:\xamppnew\htdocs\jatc.mix\templates\shaper_revibe\less\legacy\wells.less";i:1507217466;s:78:"C:\xamppnew\htdocs\jatc.mix\templates\shaper_revibe\less\legacy\accordion.less";i:1507217466;s:96:"C:\xamppnew\htdocs\jatc.mix\templates\shaper_revibe\less\legacy\responsive-767px-max.joomla.less";i:1507217466;}s:7:"updated";i:1517913297;}
+";s:5:"files";a:8:{s:75:"C:\xampp\htdocs\diet.mix\templates\shaper_revibe\less\legacy\bootstrap.less";i:1517940681;s:75:"C:\xampp\htdocs\diet.mix\templates\shaper_revibe\less\legacy\variables.less";i:1517940681;s:72:"C:\xampp\htdocs\diet.mix\templates\shaper_revibe\less\legacy\mixins.less";i:1517940681;s:70:"C:\xampp\htdocs\diet.mix\templates\shaper_revibe\less\legacy\grid.less";i:1517940681;s:71:"C:\xampp\htdocs\diet.mix\templates\shaper_revibe\less\legacy\forms.less";i:1517940681;s:71:"C:\xampp\htdocs\diet.mix\templates\shaper_revibe\less\legacy\wells.less";i:1517940681;s:75:"C:\xampp\htdocs\diet.mix\templates\shaper_revibe\less\legacy\accordion.less";i:1517940681;s:93:"C:\xampp\htdocs\diet.mix\templates\shaper_revibe\less\legacy\responsive-767px-max.joomla.less";i:1517940681;}s:7:"updated";i:1518021630;}
