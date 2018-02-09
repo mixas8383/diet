@@ -1,0 +1,11 @@
+/nbproject/private/
+/.htaccess
+/nbproject/private/
+/nbproject/*
+/nbproject/**/*
+/bower_components/*
+/node_modules/*
+/tmp/*
+/cache/*
+/administrator/cache/*
+configuration.php
